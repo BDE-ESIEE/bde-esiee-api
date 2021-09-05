@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_basic_page_basic_pages",
+  "info": {
+    "name": "BasicPage",
+    "icon": "clipboard"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

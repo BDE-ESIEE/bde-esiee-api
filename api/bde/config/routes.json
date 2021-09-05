@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bde",
+      "handler": "bde.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bde",
+      "handler": "bde.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bde",
+      "handler": "bde.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
